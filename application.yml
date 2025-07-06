@@ -15,7 +15,7 @@ spring :
   rabbitmq:
     host: localhost
     port: 5672
-    username: guest
+    username: admin
     password: gks00dlfz@
   data:
     redis:
