@@ -1,0 +1,9 @@
+# 백업 파일 무시
+*~
+*.yml~
+*.bak
+# IDE 관련 파일 (예: IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
