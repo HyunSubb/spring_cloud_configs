@@ -12,6 +12,11 @@ server:
   port: 0
 
 spring :
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: gks00dlfz@
   data:
     redis:
       host: localhost
@@ -29,3 +34,6 @@ spring :
     hibernate:
       ddl-auto: create
     show_sql: true
+    cloud:
+      bus:
+        enabled: true
