@@ -1,4 +1,4 @@
-# 공통 yaml 파일
+# 공통 yaml 파일 + 다른 yml 파일에 이거랑 같이 붙여서 준다.
 
 eureka:
   client:
